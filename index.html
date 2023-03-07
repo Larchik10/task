@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Задача</title>
+</head>
+<body>
+  <main class="grid">
+    <section class="task">
+      <p class="task__description">
+        Написать функцию, получающую на вход два числа. Если оба числа чётные - функция возвращает их произведение.
+        Если оба числа нечётные - функция возвращает их сумму. Если одно из чисел чётное, а второе нечётное - функция
+        возвращает это нечётное число.
+      </p>
+      <div class="c-input">
+        <label class="c-input__label" for="first_number">Первое число</label>
+        <input class="c-input__field" type="number" id="first_number" />
+      </div>
+      <div class="c-input">
+        <label class="c-input__label" for="second_number">Второе число</label>
+        <input class="c-input__field" type="number" id="second_number" />
+      </div>
+      <div class="btn_position">
+      <button class="btn btn--primary js-button">Получить результат</button>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
